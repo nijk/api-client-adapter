@@ -1,0 +1,10 @@
+{
+  "name": "default",
+  "middleware": "redux-api-middleware",
+  "api": {
+    "endpoint": "http://foo.com",
+    "methods": ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS", "HEAD"],
+    "resources": ["bar", "baz", "qux"]
+  },
+
+}
